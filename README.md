@@ -1,3 +1,3 @@
 # Big-Scary
 
-nah, I have computer
+Game is Big Scary
