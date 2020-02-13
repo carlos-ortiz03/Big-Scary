@@ -8,7 +8,7 @@ public class PlayerMovementScript : MonoBehaviour
 
     
     
-    public float speed = 12f; //player speed movemnt
+    public float speed = 6f; //player speed movemnt
     public float gravity = -50f; //how long player falls
     public float jumpHeight = 3f;
 
@@ -49,7 +49,6 @@ public class PlayerMovementScript : MonoBehaviour
         
         
         controller.Move(move * speed * Time.deltaTime);
-        
         controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.W))
@@ -65,39 +64,71 @@ public class PlayerMovementScript : MonoBehaviour
         
         
         
-        if (Input.GetKey(KeyCode.D))
-        {
-            _animator.SetInteger("Condition",2);
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            _animator.SetInteger("Condition", 0);   
-        }
-
-
-
         if (Input.GetKey(KeyCode.A))
         {
-            _animator.SetInteger("Condition",3);
+            _animator.SetInteger("Condition",2);
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
             _animator.SetInteger("Condition", 0);   
         }
+
+
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            _animator.SetInteger("Condition",3);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            _animator.SetInteger("Condition", 0);   
+        }
+        
         
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            _animator.SetInteger("Condition",6);
         }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            _animator.SetInteger("Condition",0);
+        }
+        
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            _animator.SetInteger("Condition",4);
+        }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            _animator.SetInteger("Condition",0);
+        }
+        
         
         
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 24f;
-        }
-        else
-        {
+            _animator.SetInteger("Condition",5);
             speed = 12f;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            _animator.SetInteger("Condition",0);
+            speed = 6f;
+            
+        }
+        
+        //EASTER EGG from a anime call Naurto
+        if (Input.GetKey(KeyCode.RightShift))
+        {
+            _animator.SetInteger("Condition",7);
+            speed = 12f;
+        }
+        if (Input.GetKeyUp(KeyCode.RightShift))
+        {
+            _animator.SetInteger("Condition",0);
+            speed = 6f;
         }
 
     }

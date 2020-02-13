@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="Animation.cs" t="Include" />
           <e p="MouseLookMovement.cs" t="Include" />
           <e p="PlayerMovementScript.cs" t="Include" />
           <e p="quitButton.cs" t="Include" />
