@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 219034175}
   - component: {fileID: 219034174}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219034173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 250, y: 0, z: 250}
   m_LocalScale: {x: 50, y: 1, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
@@ -291,13 +291,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793143677}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 231, y: 451, z: 239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1403457584
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403457584}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 500, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -402,8 +402,9 @@ GameObject:
   - component: {fileID: 1544302393}
   - component: {fileID: 1544302392}
   - component: {fileID: 1544302391}
+  - component: {fileID: 1544302395}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Wall (West)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,12 +478,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544302390}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 25.5, z: -250}
+  m_LocalPosition: {x: 250, y: 25.5, z: 0}
   m_LocalScale: {x: 1, y: 50, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1544302395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544302390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071b47f95a436e54291b3b5a78e3cf88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallAddIn: {fileID: 2048228409419872985, guid: 02dc77b3f9c59244187e793471634e9d,
+    type: 3}
 --- !u!1 &1546939068
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +511,7 @@ GameObject:
   - component: {fileID: 1546939070}
   - component: {fileID: 1546939069}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Wall (East)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,7 +585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546939068}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 25.5, z: 250}
+  m_LocalPosition: {x: 250, y: 25.5, z: 500}
   m_LocalScale: {x: 1, y: 50, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
@@ -589,7 +604,7 @@ GameObject:
   - component: {fileID: 1884557925}
   - component: {fileID: 1884557924}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Wall (North)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +678,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884557923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -250, y: 25.5, z: 0}
+  m_LocalPosition: {x: 0, y: 25.5, z: 250}
   m_LocalScale: {x: 1, y: 50, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
@@ -682,7 +697,7 @@ GameObject:
   - component: {fileID: 1998898373}
   - component: {fileID: 1998898372}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall (South)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -756,7 +771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998898371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 250, y: 25.5, z: 0}
+  m_LocalPosition: {x: 500, y: 25.5, z: 250}
   m_LocalScale: {x: 1, y: 50, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
