@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLookMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="11" selection-start-line="11" selection-end-line="12" />
+            <state relative-caret-position="160">
+              <caret line="10" selection-start-line="11" selection-end-line="12" />
               <folding>
                 <marker date="1581624545027" expanded="true" signature="6:78" ph="..." />
                 <marker date="1581624545027" expanded="true" signature="126:843" ph="{...}" />
@@ -26,19 +26,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs">
+        <entry file="file://$USER_HOME$/Desktop/PlayerMovementScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            <state>
+              <caret column="6" selection-end-line="69" selection-end-column="1" />
               <folding>
-                <marker date="1582139011057" expanded="false" signature="6:92" ph="..." />
-                <marker date="1582139011057" expanded="true" signature="143:1785" ph="{...}" />
-                <marker date="1582139011057" expanded="true" signature="709:825" ph="{...}" />
-                <marker date="1582139011057" expanded="true" signature="844:1783" ph="{...}" />
-                <marker date="1582139011057" expanded="true" signature="986:1036" ph="{...}" />
-                <marker date="1582139011057" expanded="true" signature="1509:1594" ph="{...}" />
-                <marker date="1582139011057" expanded="true" signature="1640:1685" ph="{...}" />
-                <marker date="1582139011057" expanded="true" signature="1733:1777" ph="{...}" />
+                <element signature="e#0#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,6 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/PlayerMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLookMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -66,9 +60,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1347" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="321" />
+    <option name="y" value="817" />
     <option name="width" value="2100" />
     <option name="height" value="1179" />
   </component>
@@ -143,7 +137,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18441000" />
+    <option name="totallyTimeSpent" value="19042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,9 +149,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="214" y="545" width="1400" height="786" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.075119235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14104478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,17 +198,11 @@
     <entry file="file://$PROJECT_DIR$/Assets/PlayerMovementScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animation.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLookMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="11" selection-start-line="11" selection-end-line="12" />
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="11" selection-end-line="12" />
           <folding>
             <marker date="1581624545027" expanded="true" signature="6:78" ph="..." />
             <marker date="1581624545027" expanded="true" signature="126:843" ph="{...}" />
