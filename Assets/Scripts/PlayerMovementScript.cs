@@ -51,84 +51,20 @@ public class PlayerMovementScript : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
         controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.W))
-        {
-            _animator.SetInteger("Condition", 1);
-        }
 
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-         _animator.SetInteger("Condition", 0);   
-        }
-        
-        
-        
-        if (Input.GetKey(KeyCode.A))
-        {
-            _animator.SetInteger("Condition",2);
-        }
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            _animator.SetInteger("Condition", 0);   
-        }
-
-
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            _animator.SetInteger("Condition",3);
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            _animator.SetInteger("Condition", 0);   
-        }
-        
-        
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            _animator.SetInteger("Condition",6);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            _animator.SetInteger("Condition",0);
-        }
-        
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            _animator.SetInteger("Condition",4);
-        }
-        if (Input.GetKeyUp(KeyCode.S))
-        {
-            _animator.SetInteger("Condition",0);
-        }
-        
-        
-        
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            _animator.SetInteger("Condition",5);
             speed = 12f;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            _animator.SetInteger("Condition",0);
-            speed = 6f;
-            
-        }
-        
-        //EASTER EGG from a anime call Naurto
-        if (Input.GetKey(KeyCode.RightShift))
-        {
-            _animator.SetInteger("Condition",7);
-            speed = 12f;
-        }
-        if (Input.GetKeyUp(KeyCode.RightShift))
-        {
-            _animator.SetInteger("Condition",0);
-            speed = 6f;
         }
 
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 6f;
+        }
     }
 }
