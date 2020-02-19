@@ -54,7 +54,6 @@ public class PlayerMovementScript : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             _animator.SetInteger("Condition", 1);
-            Debug.Log("It works");
         }
 
         if (Input.GetKeyUp(KeyCode.W))
