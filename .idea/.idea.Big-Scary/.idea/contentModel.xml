@@ -8,7 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="clickToDelete.cs" t="Include" />
+<<<<<<< HEAD
+          <e p="clickToPickUp.cs" t="Include" />
+=======
           <e p="mainMenuButton.cs" t="Include" />
+>>>>>>> 9c9f00a43504fc13b97cd62a543aff2b32bfcb36
           <e p="MouseLookMovement.cs" t="Include" />
           <e p="PlayerMovementScript.cs" t="Include" />
           <e p="quitButton.cs" t="Include" />

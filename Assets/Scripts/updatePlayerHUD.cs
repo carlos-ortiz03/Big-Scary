@@ -16,7 +16,7 @@ public class updatePlayerHUD : MonoBehaviour
 
     void Start()
     {
-        camera = GameObject.Find("PLAYER/Main Camera");
+        camera = GameObject.FindWithTag("MainCamera");
         playerHUD = GetComponent<TextMeshPro>();
     }
     
