@@ -493,10 +493,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1544302390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 071b47f95a436e54291b3b5a78e3cf88, type: 3}
+  m_Script: {fileID: 11500000, guid: ed0999690154b4f48864ac43be16f66d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallAddIn: {fileID: 2048228409419872985, guid: 02dc77b3f9c59244187e793471634e9d,
+  wallAddIn: {fileID: 2048228409419872985, guid: 8e972e6d9788242459ea7ddc0a2c380b,
     type: 3}
 --- !u!1 &1546939068
 GameObject:
