@@ -16,8 +16,8 @@ public class clickToDelete : MonoBehaviour
 
     void Start()
     {
-        Key1 = GameObject.Find("Test Environment/Key 1");
-        Key2 = GameObject.Find("Test Environment/Key 2");
+        Key1 = GameObject.FindWithTag("Key1");
+        Key2 = GameObject.FindWithTag("Key2");
         cam = GetComponent<Camera>();
     }
     
@@ -29,7 +29,6 @@ public class clickToDelete : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                //Works until this point
                 if (hit.collider.gameObject.Equals(Key1))
                 {
                     Destroy(Key1);
