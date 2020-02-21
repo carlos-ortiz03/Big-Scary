@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\684175\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\684175\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Big-Scary.909033796.00" t="ExcludeRecursive" />
-    <e p="C:\Users\684175\Documents\Big-Scary" t="IncludeRecursive">
+    <e p="C:\Users\743827\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\743827\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Big-Scary.436364974.00" t="ExcludeRecursive" />
+    <e p="C:\Users\743827\Documents\Big-Scary" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="clickToDelete.cs" t="Include" />
+          <e p="mainMenuButton.cs" t="Include" />
           <e p="MouseLookMovement.cs" t="Include" />
           <e p="PlayerMovementScript.cs" t="Include" />
           <e p="quitButton.cs" t="Include" />
