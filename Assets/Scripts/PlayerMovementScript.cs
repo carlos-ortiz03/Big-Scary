@@ -1,13 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
 
-    public CharacterController controller;
     
-    public float speed = 12f; //player speed movemnt
+    
+    public float speed = 6f; //player speed movemnt
     public float gravity = -50f; //how long player falls
     public float jumpHeight = 3f;
 
@@ -17,8 +18,16 @@ public class PlayerMovementScript : MonoBehaviour
 
     private Vector3 velocity;
     private bool isGrounded;
-   
-    // Update is called once per frame
+    
+    public CharacterController controller;
+    private Animator _animator;
+
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+        _animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
 
@@ -28,31 +37,34 @@ public class PlayerMovementScript : MonoBehaviour
         {
             velocity.y = -2f;
         }
-            
+        
+        
+        velocity.y += gravity * Time.deltaTime;
+        
+        
         float x = Input.GetAxis("Horizontal"); //moving left and right
         float z = Input.GetAxis("Vertical"); //moving up and down
 
         Vector3 move = transform.right * x + transform.forward * z;
-
-        controller.Move(move * speed * Time.deltaTime);
         
+        
+        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(velocity * Time.deltaTime);
+
+
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-        velocity.y += gravity * Time.deltaTime;
-        
-        controller.Move(velocity * Time.deltaTime);
-        
         if (Input.GetKey(KeyCode.LeftShift))
-        {
-            speed = 24f;
-        }
-        else
         {
             speed = 12f;
         }
 
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 6f;
+        }
     }
 }

@@ -6,8 +6,14 @@
     <e p="C:\Users\680362\Documents\Big Scary" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="MouseLookMovement.cs" t="Include" />
-        <e p="PlayerMovementScript.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="clickToDelete.cs" t="Include" />
+          <e p="MouseLookMovement.cs" t="Include" />
+          <e p="PlayerMovementScript.cs" t="Include" />
+          <e p="quitButton.cs" t="Include" />
+          <e p="restartButton.cs" t="Include" />
+          <e p="WallRandomizer.cs" t="Include" />
+        </e>
       </e>
       <e p="Big Scary.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

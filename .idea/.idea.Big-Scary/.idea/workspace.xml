@@ -10,8 +10,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/clickToDelete.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/mainMenuButton.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="375">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
@@ -23,6 +24,15 @@
                 <marker date="1581620962992" expanded="true" signature="492:712" ph="{...}" />
                 <marker date="1581620962992" expanded="true" signature="543:602" ph="{...}" />
                 <marker date="1581620962992" expanded="true" signature="643:702" ph="{...}" />
+=======
+            <state relative-caret-position="165">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <marker date="1582309404413" expanded="true" signature="6:113" ph="..." />
+                <marker date="1582309404413" expanded="true" signature="158:313" ph="{...}" />
+                <marker date="1582309404413" expanded="true" signature="177:311" ph="{...}" />
+                <marker date="1582309404413" expanded="true" signature="207:305" ph="{...}" />
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
               </folding>
             </state>
           </provider>
@@ -33,9 +43,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
+<<<<<<< HEAD
                 <marker date="1581620963000" expanded="false" signature="6:78" ph="..." />
                 <marker date="1581620963000" expanded="true" signature="119:179" ph="{...}" />
                 <marker date="1581620963000" expanded="true" signature="137:177" ph="{...}" />
+=======
+                <marker date="1580928543680" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580928543680" expanded="true" signature="119:179" ph="{...}" />
+                <marker date="1580928543680" expanded="true" signature="137:177" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/restartButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <marker date="1582309250696" expanded="false" signature="6:113" ph="..." />
+                <marker date="1582309250696" expanded="true" signature="157:270" ph="{...}" />
+                <marker date="1582309250696" expanded="true" signature="185:268" ph="{...}" />
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
               </folding>
             </state>
           </provider>
@@ -44,6 +74,7 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/clickToDelete.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/quitButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -51,6 +82,27 @@
     <option name="x" value="1948" />
     <option name="y" value="70" />
     <option name="width" value="1941" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/quitButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/restartButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/mainMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/clickToDelete.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/updatePlayerHUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/restartButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/mainMenuButton.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-15" />
+    <option name="y" value="3" />
+    <option name="width" value="1844" />
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
     <option name="height" value="2112" />
   </component>
   <component name="ProjectView">
@@ -59,11 +111,18 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+<<<<<<< HEAD
+=======
+      <pane id="AssemblyExplorer" />
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+<<<<<<< HEAD
       <pane id="AssemblyExplorer" />
+=======
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -85,6 +144,7 @@
     <configuration />
   </component>
   <component name="TaskManager">
+<<<<<<< HEAD
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -95,6 +155,41 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2893031" />
+=======
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902d6b27-0abe-41f9-a586-1eba3a470b14" name="Default Changelist" comment="" />
+      <created>1581449800205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581449800205</updated>
+      <workItem from="1581449802996" duration="667000" />
+      <workItem from="1581450556680" duration="251000" />
+      <workItem from="1581619108524" duration="2115000" />
+      <workItem from="1581624084265" duration="2086000" />
+      <workItem from="1582135312474" duration="5104000" />
+      <workItem from="1582141997339" duration="9000" />
+      <workItem from="1582309010480" duration="394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10626000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-10" y="2" width="1229" height="1408" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2754491" />
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -123,4 +218,58 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+<<<<<<< HEAD
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/clickToDelete.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/updatePlayerHUD.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/quitButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1580928543680" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580928543680" expanded="true" signature="119:179" ph="{...}" />
+            <marker date="1580928543680" expanded="true" signature="137:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/restartButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <marker date="1582309250696" expanded="false" signature="6:113" ph="..." />
+            <marker date="1582309250696" expanded="true" signature="157:270" ph="{...}" />
+            <marker date="1582309250696" expanded="true" signature="185:268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/mainMenuButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <marker date="1582309404413" expanded="true" signature="6:113" ph="..." />
+            <marker date="1582309404413" expanded="true" signature="158:313" ph="{...}" />
+            <marker date="1582309404413" expanded="true" signature="177:311" ph="{...}" />
+            <marker date="1582309404413" expanded="true" signature="207:305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> c6a7166957a29d1e49e223c8f2c5a792efeb8301
 </project>

@@ -8,32 +8,39 @@ public class clickToDelete : MonoBehaviour
 {
     private GameObject Key1;
     private GameObject Key2;
+
+    private Camera cam;
     
+    public Boolean key1 = false;
+    public Boolean key2 = false;
+
     void Start()
     {
-        Key1 = GameObject.Find("Environment/Key 1");
-        Key2 = GameObject.Find("Environment/Key 2");
+        Key1 = GameObject.Find("Test Environment/Key 1");
+        Key2 = GameObject.Find("Test Environment/Key 2");
+        cam = GetComponent<Camera>();
     }
     
     void Update()
     {
-        OnMouseDown();
-    }
-
-    private void OnMouseDown()
-    {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
-            if (gameObject.Equals(Key1))
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
             {
-                Destroy(Key1);
-            }
-            if (gameObject.Equals(Key2))
-            {
-                Destroy(Key2);
+                //Works until this point
+                if (hit.collider.gameObject.Equals(Key1))
+                {
+                    Destroy(Key1);
+                    key1 = true;
+                }
+                if (hit.collider.gameObject.Equals(Key2))
+                {
+                    Destroy(Key2);
+                    key2 = true;
+                }
             }
         }
     }
-    
-    //Unsure if this works quite yet. We'll find out when the player movement is further implemented.
 }
