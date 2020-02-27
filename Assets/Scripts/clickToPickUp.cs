@@ -45,10 +45,9 @@ public class clickToPickUp : MonoBehaviour
     private void objectFollow()
     {
         armPos = arm.transform.position;
-        float yRotation;
-        yRotation = 0;
-        yRotation = Mathf.Clamp(yRotation, 0, 0);
-        lantern.transform.rotation = Quaternion.Euler(cam.transform.rotation.x, yRotation, cam.transform.rotation.z);
+        float xRot = cam.transform.rotation.x;
+        float zRot = cam.transform.rotation.z;
+        lantern.transform.rotation = Quaternion.Euler(xRot, 0, zRot);
         
         if (isPickedUp == true)
         {
