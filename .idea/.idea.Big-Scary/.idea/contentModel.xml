@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+<<<<<<< HEAD
     <e p="C:\Users\684175\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\684175\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Big-Scary.909033796.00" t="ExcludeRecursive" />
     <e p="C:\Users\684175\Documents\Big-Scary" t="IncludeRecursive">
+=======
+    <e p="C:\Users\681507\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\681507\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Big-Scary.13446740.00" t="ExcludeRecursive" />
+    <e p="C:\Users\681507\Documents\Big-Scary" t="IncludeRecursive">
+>>>>>>> fbd2dba0cdfcb8862f53ec7521220604bed207dd
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
