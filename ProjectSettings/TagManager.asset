@@ -9,6 +9,10 @@ TagManager:
   - Key2
   - Arm
   - Door
+  - I1
+  - I2
+  - I3
+  - I4
   layers:
   - Default
   - TransparentFX
