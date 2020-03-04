@@ -9,10 +9,9 @@ TagManager:
   - Key2
   - Arm
   - Door
-  - I1
-  - I2
-  - I3
-  - I4
+  - Key2Obj
+  - Key1Obj
+  - Inventory
   layers:
   - Default
   - TransparentFX
