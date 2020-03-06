@@ -38,6 +38,7 @@ public class clickToPickUp : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             isPickedUp = false;
+            lantern.transform.position = new Vector3(armPos.x,armPos.y - 0.8f, armPos.z);
         }
         objectFollow();
     }

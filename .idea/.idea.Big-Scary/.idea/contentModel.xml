@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="clickToDelete.cs" t="Include" />
           <e p="clickToPickUp.cs" t="Include" />
+          <e p="lightsOff.cs" t="Include" />
           <e p="mainMenuButton.cs" t="Include" />
           <e p="MouseLookMovement.cs" t="Include" />
           <e p="openDoorPolicy.cs" t="Include" />
