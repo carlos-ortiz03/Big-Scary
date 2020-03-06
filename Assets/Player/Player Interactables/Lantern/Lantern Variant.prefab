@@ -65,37 +65,37 @@ PrefabInstance:
     - target: {fileID: 3082986422229875544, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.4325142
+      value: 1.2587607
       objectReference: {fileID: 0}
     - target: {fileID: 3082986422229875544, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.6248064
+      value: 0.53792965
       objectReference: {fileID: 0}
     - target: {fileID: 3082986422229875544, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.78987634
+      value: 0.5161261
       objectReference: {fileID: 0}
     - target: {fileID: 3082986422229875544, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Center.x
-      value: 0
+      value: -0.006132722
       objectReference: {fileID: 0}
     - target: {fileID: 3082986422229875544, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.78355664
+      value: 0.5045103
       objectReference: {fileID: 0}
     - target: {fileID: 3082986422229875544, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Center.z
-      value: -0.012025198
+      value: -0.007964472
       objectReference: {fileID: 0}
     - target: {fileID: 4107352734036562961, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
       propertyPath: m_Name
-      value: Lantern
+      value: Lantern Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4107352734036562961, guid: 8ef2b5f11fb8ab04cb32e219fa31c465,
         type: 3}
