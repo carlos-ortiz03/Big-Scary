@@ -51,15 +51,26 @@ public class PlayerMovementScript : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
         controller.Move(velocity * Time.deltaTime);
 
+        if (Input.GetKey(KeyCode.W))
+        {
+            _animator.SetInteger("Condition",1);
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            _animator.SetInteger("Condition",0);
+        }
+
 
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = 12f;
+            
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift))
